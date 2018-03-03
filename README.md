@@ -1,6 +1,5 @@
-# Helios
-Helios web application for measuring solar panel savings
+# Mangrove
+Mangrove is a web application for investing in environmentally or socially responsible companies and ETFs. This will allow users to understand that there are alternate options to the stock market and will provide a gateway to the world of investments.
 
-# APIs
-https://solcast.com.au/api/docs/
-
+# Languages Used
+HTML5, CSS3, JavaScript, Python
