@@ -6,23 +6,57 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="assets/css/learn.css">
+        <link rel="stylesheet" href="assets/js/learn.js">
     </head>
     <body>
-        <nav class="navbar navbar-expand navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-light bg-light" style="width: 100%; position: fixed; z-index: 50;">
           <div class="container">
             <a class="navbar-brand" href="index.html" style="color: #76b852;"><img src="assets/img/mangrove.svg" alt="" style="width: 50px; height: 50px;">Mangrove</a>
-            <a href="learn.html">Learn More About Investing</a>
+            <a id="slink" href="#stock">Stocks</a>
+            <a id="clink" href="#cbond">Corporate Bonds</a>
+            <a id="etflink" href="#etf">Exchange-Traded Funds</a>
+            <a id="mflink" href="#mf">Mutual Funds</a>
           </div>
         </nav>
-        <div class="list-group">
-          <div class="list-group-item list-group-item-action active">
-            Cras justo odio
+        <div class="list-group" style="position: absolute; top: 80px;">
+          <div class="list-group-item list-group-item-action" id="stock">
+            <h3>STOCKS</h3>
+            <p>Stocks are a type of security that gives stockholders a share of ownership in a company. Stocks also are called “equities.”</p>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni magnam necessitatibus, nesciunt neque enim dolores atque dolorum, velit. Nam in, modi qui, at iusto repellat. Inventore, dignissimos omnis enim a.</span>
+            <span>Iure, deserunt vel itaque? Odio ea quasi, sapiente beatae ad dolorem ducimus, veniam laudantium commodi quaerat dolores animi et illo, possimus, minus a. Dolor eum tenetur necessitatibus suscipit. Optio, aspernatur.</span>
+            <span>Laborum aut iusto nam illo aliquid laudantium obcaecati accusantium amet incidunt ut commodi, eum ea nostrum vero. Corrupti earum temporibus consequatur, enim magni, saepe nulla quod non voluptates inventore voluptate.</span>
+            <span>Perferendis earum excepturi rerum veniam, autem optio tenetur a ipsam voluptate! Aspernatur aperiam, nihil accusamus magni dolorum error sint voluptatibus dignissimos, aliquid commodi reprehenderit, facere molestias vel beatae doloremque explicabo?</span>
+            <span>Animi distinctio amet sunt porro laboriosam nisi praesentium ex quos officiis esse? Veritatis eligendi laudantium quos inventore, dolorem, quaerat odio voluptas voluptates iure consectetur aliquam voluptatibus nostrum incidunt libero dolorum?</span></p>
           </div>
-          <div class="list-group-item list-group-item-action">Dapibus ac facilisis in</div>
-          <div class="list-group-item list-group-item-action">Morbi leo risus</div>
-          <div class="list-group-item list-group-item-action">Porta ac consectetur ac</div>
-          <div class="list-group-item list-group-item-action disabled">Vestibulum at eros</div>
-</div>
+          <div class="list-group-item list-group-item-action" id="cbond">
+                <h3>CORPORATE BONDS</h3>
+                <p>A bond is a debt obligation, like an IOU. Investors who buy corporate bonds are lending money to the company issuing the bond. In return, the company makes a legal commitment to pay interest on the principal and, in most cases, to return the principal when the bond comes due, or matures.</p>
+
+                <p>To understand bonds, it is helpful to compare them with stocks. When you buy a share of common stock, you own equity in the company and will receive any dividends declared and paid by the company. When you buy a corporate bond, you do not own equity in the company. You will receive only the interest and principal on the bond, no matter how profitable the company becomes or how high its stock price climbs. But if the company runs into financial difficulties, it still has a legal obligation to make timely payments of interest and principal. The company has no similar obligation to pay dividends to shareholders. In a bankruptcy, bond investors have priority over shareholders in claims on the company's assets.</p>
+
+                <p>Like all investments, bonds carry risks. One key risk to a bondholder is that the company may fail to make timely payments of interest or principal. If that happens, the company will default on its bonds. This "default risk" makes the creditworthiness of the company—that is, its ability to pay its debt obligations on time—an important concern to bondholders.</p>
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni magnam necessitatibus, nesciunt neque enim dolores atque dolorum, velit. Nam in, modi qui, at iusto repellat. Inventore, dignissimos omnis enim a.</span>
+                <span>Iure, deserunt vel itaque? Odio ea quasi, sapiente beatae ad dolorem ducimus, veniam laudantium commodi quaerat dolores animi et illo, possimus, minus a. Dolor eum tenetur necessitatibus suscipit. Optio, aspernatur.</span>
+                <span>Laborum aut iusto nam illo aliquid laudantium obcaecati accusantium amet incidunt ut commodi, eum ea nostrum vero. Corrupti earum temporibus consequatur, enim magni, saepe nulla quod non voluptates inventore voluptate.</span>
+                <span>Perferendis earum excepturi rerum veniam, autem optio tenetur a ipsam voluptate! Aspernatur aperiam, nihil accusamus magni dolorum error sint voluptatibus dignissimos, aliquid commodi reprehenderit, facere molestias vel beatae doloremque explicabo?</span>
+                <span>Animi distinctio amet sunt porro laboriosam nisi praesentium ex quos officiis esse? Veritatis eligendi laudantium quos inventore, dolorem, quaerat odio voluptas voluptates iure consectetur aliquam voluptatibus nostrum incidunt libero dolorum?</span></p>
+          </div>
+          <div class="list-group-item list-group-item-action" id="etf">
+              <h3>EXCHANGE-TRADED FUNDS (ETFS)</h3>
+              <p>This summary discusses only ETFs that are registered as open-end investment companies or unit investment trusts under the Investment Company Act of 1940 (the “1940 Act”).  It does not address other types of exchange-traded products that are not registered under the 1940 Act, such as exchange-traded commodity funds or exchange-traded notes.</p>
+              <p>ETFs are a type of exchange-traded investment product that must register with the SEC under the 1940 Act as either an open-end investment company (generally known as “funds”) or a unit investment trust.</p>
+              <p>Like mutual funds, ETFs offer investors a way to pool their money in a fund that makes investments in stocks, bonds, or other assets and, in return, to receive an interest in that investment pool.  Unlike mutual funds, however, ETF shares are traded on a national stock exchange and at market prices that may or may not be the same as the net asset value (“NAV”) of the shares, that is, the value of the ETF’s assets minus its liabilities divided by the number of shares outstanding.</p>
+              <p>Most ETFs trading in the marketplace are index-based ETFs.  These ETFs seek to track a securities index like the S&P 500 stock index and generally invest primarily in the component securities of the index.  For example, the SPDR, or “spider” ETF, which seeks to track the S&P 500 stock index, invests in most or all of the equity securities contained in the S&P 500 stock index.  Some, but not all, ETFs may post their holdings on their websites on a daily basis.</p>
+              <p>Actively managed ETFs are not based on an index.  Instead, they seek to achieve a stated investment objective by investing in a portfolio of stocks, bonds, and other assets.  Unlike with an index-based ETF, an adviser of an actively managed ETF may actively buy or sell components in the portfolio on a daily basis without regard to conformity with an index.</p>
+          </div>
+          <div class="list-group-item list-group-item-action" id="mf">
+              <h3>MUTUAL FUNDS</h3>
+              <p>A mutual fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds. Each share represents an investor’s part ownership in the fund and the income it generates.</p>
+              <p>Most mutual funds fall into one of four main categories – money market funds, bond funds, stock funds, and target date funds. Each type has different features, risks, and rewards.</p>
+              <p>A fund’s past performance is not as important as you might think because past performance does not predict future returns. But past performance can tell you how volatile or stable a fund has been over a period of time. The more volatile the fund, the higher the investment risk.</p>
+          </div>
+    </div>
     </body>
 </html>
