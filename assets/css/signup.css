@@ -20,48 +20,9 @@ body {
 
 }
 
-#content h2, #content h5 {
-    color: white;
-    text-align: center;
-    margin:20px;
-    animation: dropdown 0.5s ease-in-out;
-}
-
-.btn {
+#signup {
+    height: 150vh;
+    display: block;
     text-align: center;
     margin: 0 auto;
-    display: block;
-    width: 150px;
-}
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: block;
-}
-
-#ov {
-    color: white;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-}
-
-#chartdiv {
-	width	: 100%;
-	height	: 500px;
-}		
-
-@keyframes dropdown {
-    0% {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }

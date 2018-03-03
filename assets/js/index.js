@@ -7,7 +7,7 @@ const footer = document.getElementById('footer');
 // HEADER
 const logo = document.createElement('img');
 logo.setAttribute('id', 'logo');
-logo.src = 'assets/img/mangrove.png';
+logo.src = 'assets/img/mangrove.svg';
 header.appendChild(logo);
 
 const options = document.createElement('ul');
