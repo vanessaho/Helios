@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialised;
+    line-height: 1.6;
+    overflow-x: hidden;
+    color: white;
+}
+
+body {
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto;
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#content h2, #content h5 {
+    color: white;
+    text-align: center;
+    margin:20px;
+    animation: dropdown 0.5s ease-in-out;
+}
+
+.btn {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#ov {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#chartdiv {
+	width	: 100%;
+	height	: 500px;
+}		
