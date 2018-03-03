@@ -7,8 +7,34 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function (){
+                $("#slink").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $("#stock").offset().top - 70
+                    }, 1000);
+                });
+                
+                $("#clink").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $("#cbond").offset().top - 70
+                    }, 1000);
+                });
+                
+                $("#etflink").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $("#etf").offset().top - 70
+                    }, 1000);
+                });
+                
+                $("#mflink").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $("#mf").offset().top - 70
+                    }, 1000);
+                });
+            });
+        </script>
         <link rel="stylesheet" href="assets/css/learn.css">
-        <link rel="stylesheet" href="assets/js/learn.js">
     </head>
     <body>
         <nav class="navbar navbar-expand navbar-light bg-light" style="width: 100%; position: fixed; z-index: 50;">
