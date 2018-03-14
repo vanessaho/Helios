@@ -59,7 +59,7 @@ getStarted.setAttribute('id', 'lm');
 intro.appendChild(getStarted);
 
 var showLists = function() {
-    window.location.href = "/lists.html";
+    window.location.href = "lists.html";
 }
 
 var cntr = document.createElement('div');

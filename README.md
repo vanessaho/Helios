@@ -7,3 +7,6 @@ amCharts (https://www.amcharts.com/knowledge-base/)
 
 # Languages Used
 HTML5, CSS3, JavaScript, Python
+
+# Libraries
+BootStrap
